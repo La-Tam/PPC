@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "Sign_in";
+}
+<head>
+    <title>Log-in</title>
+    <style type="text/css">
+        .style2 {
+            width: 199px;
+            height: 50px;
+        }
+
+        #Select4 {
+            width: 230px;
+        }
+
+        #Text7 {
+            width: 230px;
+        }
+
+        #Text8 {
+            width: 230px;
+        }
+
+        #Text9 {
+            width: 230px;
+        }
+
+        #Text10 {
+            width: 230px;
+        }
+
+        #Text3 {
+            width: 230px;
+        }
+
+        #Text2 {
+            width: 230px;
+        }
+
+        #Text1 {
+            width: 230px;
+        }
+    </style>
+    <style>
+        table {
+            background-color: Black;
+            color: Yellow
+        }
+
+        .style5 {
+            height: 40px;
+        }
+
+        .style6 {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <table class="table-condensed" style="width:33%;">
+            <tr>
+                <td colspan="2" style="background-color:Orange; color:Yellow" class="style5">
+                    &nbsp;Sign in
+                </td>
+            </tr>
+            <tr>
+                <td class="style6" align="right">
+                    User name
+                </td>
+                <td class="style6">
+                    <input id="Text3" type="text" placeholder="User name..." />
+                </td>
+            </tr>
+            <tr>
+                <td class="style6" align="right">
+                    Password
+                </td>
+                <td class="style6">
+                    <input id="Text9" type="password" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" align="right">
+                    Posision
+                </td>
+                <td class="style6">
+                    <select id="Select4" name="D4">
+                        <option>Agency</option>
+                        <option>Stafe</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="style6"></td>
+                <td class="style6">
+                    <input id="Checkbox1" type="checkbox" />Remember password?
+                </td>
+            </tr>
+            <tr>
+                <td class="style6" align="right" colspan="2" style="background-color:Orange">
+                    <button class="btn btn-default" style="background-color:green">@Html.ActionLink("Submit", "Index", "Home")</button>
+                    <button class="btn btn-default" style="background-color:red">@Html.ActionLink("Cancle", "Index", "Home")</button>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>

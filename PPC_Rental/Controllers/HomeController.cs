@@ -26,5 +26,20 @@ namespace PPC_Rental.Controllers
 
             return View();
         }
+
+        public ActionResult Sign_up()
+        {
+            return View();
+        }
+
+        public ActionResult Sign_in()
+        {
+            return View();
+        }
+
+        public ActionResult Project()
+        {
+            return View();
+        }
     }
 }

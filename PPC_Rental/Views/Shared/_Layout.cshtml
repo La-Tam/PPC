@@ -19,12 +19,14 @@
                 @Html.ActionLink("PPC-Rental", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <center>
-                <div class="navbar-collapse collapse">
+                <div class="navbar-right right">
                     <ul class="nav navbar-nav">
                         <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Project","Project","Home")</li>
                         <li>@Html.ActionLink("About", "About", "Home")</li>
                         <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                        <li>@Html.ActionLink("Sign up", "About")</li>
+                        <li>@Html.ActionLink("Sign up", "Sign_up","Home")</li>
+                        <li>@Html.ActionLink("Sign in", "Sign_in", "Home")</li>
                     </ul>
                 </div>
             </center>
